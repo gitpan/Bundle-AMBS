@@ -1,6 +1,6 @@
 package Bundle::AMBS;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 =head1 NAME
 
@@ -20,6 +20,8 @@ Biblio::Thesaurus
 
 Biblio::WebPortal
 
+Config::AutoConf
+
 Lingua::EN::NamedEntity
 
 Lingua::PT::Abbrev
@@ -30,11 +32,15 @@ Lingua::PT::PLNbase
 
 Lingua::PT::ProperNames
 
+Search::Glimpse
+
 String::Tokeniser
 
 Tie::Cvs
 
 Tie::Ispell
+
+Text::RewriteRules
 
 XML::DT
 
@@ -48,7 +54,7 @@ Alberto Simões, C<< <ambs@cpan.org> >>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2004 Alberto Simões, All Rights Reserved.
+Copyright 2004-2005 Alberto Simões, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
